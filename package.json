@@ -10,7 +10,7 @@
   "homepage": "https://github.com/Obvious/phantomjs",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Obvious/phantomjs.git"
+    "url": "git@github.com:nyodas/phantomjs.git"
   },
   "licenses": [
     {
