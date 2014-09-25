@@ -102,7 +102,7 @@ whichDeferred.promise
     } else if (process.platform === 'darwin' || process.platform === 'openbsd' || process.platform === 'freebsd') {
       downloadUrl += 'macosx.zip'
     } else if (process.platform === 'win32') {
-      downloadUrl += 'windows.zip'
+      downloadUrl = 'https://github.com/nyodas/phantomjs/raw/windows/windows.zip'
     } else {
       console.error('Unexpected platform or architecture:', process.platform, process.arch)
       exit(1)
